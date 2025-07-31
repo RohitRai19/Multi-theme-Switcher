@@ -1,3 +1,26 @@
+# 🎨 Multi-Theme Switcher App (React + TypeScript)
+
+A responsive React application that supports multiple layout-based themes with persistence and routing.
+
+## 🔧 Tech Stack
+
+- React + Vite + TypeScript
+- Context API for theme management
+- Tailwind CSS for styling
+- React Router
+- FakeStore API for products
+
+## 📁 Folder Structure
+
+
+
+
+
+
+
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
