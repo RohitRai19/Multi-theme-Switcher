@@ -1,8 +1,8 @@
-# 🎨 Multi-Theme Switcher App (React + TypeScript)
+# Multi-Theme Switcher App (React + TypeScript)
 
 A responsive React application that supports multiple layout-based themes with persistence and routing.
 
-## 🔧 Tech Stack
+## Tech Stack
 
 - React + Vite + TypeScript
 - Context API for theme management
@@ -10,26 +10,49 @@ A responsive React application that supports multiple layout-based themes with p
 - React Router
 - FakeStore API for products
 
-## 📁 Folder Structure
+## Folder Structure
+ public/
+├── src/
+│ ├── assets/ # Images, fonts, etc. (optional)
+│ ├── components/ # UI components (Header, etc.)
+│ ├── context/ # ThemeContext + useTheme hook
+│ ├── pages/ # Page views (Home, About, Contact)
+│ ├── theme/ # themeStyles.ts (class mappings per theme)
+│ ├── App.tsx # Main app with layout switching
+│ ├── main.tsx # ReactDOM root + ThemeProvider
+│ ├── index.css # Tailwind imports and global styles
+│ └── App.css # Optional extra styles
+├── tailwind.config.js # Tailwind theme + safelist config
+├── vite.config.ts # Vite config with Tailwind plugin
+├── tsconfig.json # TypeScript config
+├── package.json
+└── README.md
 
 
 
+##  Installation & Setup
+
+###  Clone the Repository
+
+```bash
+git clone https://github.com/your-username/Multi-theme-Switcher.git
+cd Multi-theme-Switcher
 
 
+# Install Dependencies
 
+npm install
 
+## Start the Dev Server
 
+npm run dev
 
+#Live Demo
 
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+ 
+ 
+Author
+Rohit Rai
+GitHub: @RohitRai19
+Location: Gurgaon, India
+Role: Frontend Developer

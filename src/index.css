@@ -2,7 +2,20 @@
 
 /* src/index.css */
 
+html.theme1 {
+  background-color: #f9f9f9;
+  font-family: 'Inter', sans-serif;
+}
 
+html.theme2 {
+  background-color: #111827;
+  font-family: 'Georgia', serif;
+}
+
+html.theme3 {
+  background-color: #fffed5;
+  font-family: 'Pacifico', cursive;
+}
 
 /* :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;

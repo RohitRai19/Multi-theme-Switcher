@@ -15,9 +15,10 @@ export const ThemeProvider = ({ children }: { children: React.ReactNode }) => {
   })
 
   useEffect(() => {
+    document.documentElement.className = ''
+    document.documentElement.classList.add(theme)
     localStorage.setItem('theme', theme)
   }, [theme])
-
   return (
     <ThemeContext.Provider value={{ theme, setTheme }}>
       {children}
