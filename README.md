@@ -12,7 +12,7 @@ A responsive React application that supports multiple layout-based themes with p
 
 ## Folder Structure
  public/
-├── src/
+── src/
 │ ├── assets/ # Images, fonts, etc. (optional)
 │ ├── components/ # UI components (Header, etc.)
 │ ├── context/ # ThemeContext + useTheme hook
@@ -35,7 +35,7 @@ A responsive React application that supports multiple layout-based themes with p
 ###  Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/Multi-theme-Switcher.git
+git clone https://github.com/RohitRai19/Multi-theme-Switcher.git
 cd Multi-theme-Switcher
 
 
