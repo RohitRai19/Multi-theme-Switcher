@@ -52,7 +52,7 @@ npm run dev
  
  
 Author
-Rohit Rai
+Name-: Rohit Rai
 GitHub: @RohitRai19
 Location: Gurgaon, India
 Role: Frontend Developer
